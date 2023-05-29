@@ -10,7 +10,7 @@ From image coordinate to 2D (BEV) world coordinate
 - OpenCV 4.6.0
 
 ## How to use
-**Find_dst_src_for_Homogarphy.ipynb >> Average_point.ipynb >> Frame_Transformation_2D.ipynb >> Velocity_filtering.ipynb >> plot_BEV.ipynb**
+**Find_dst_src_for_Homogarphy.ipynb >> Average_point.ipynb >> Frame_Transformation_2D.ipynb >> Velocity_filtering.ipynb >> Plot_BEV.ipynb**
 
 1. run Find_dst_src_for_Homogarphy.ipynb จะได้ตำแหน่ง src และ dst ออกมาเป็นไฟล์ src.out และ dst.out
 
@@ -30,7 +30,7 @@ format ของ trajectory ใน world coordinate
 ![image](https://github.com/vivmm/ME14_2022/assets/103901978/644e51ef-9a69-4d5e-a738-5c5466df0a28)
 
 4. filter track ที่มีปัญหาด้วย Velocity_filtering.ipynb จะได้ track id ที่มีปัญหา
-5. vizualization ด้วย plot_BEV.ipynb
+5. vizualization ด้วย Plot_BEV.ipynb
 
 ![image](https://github.com/vivmm/ME14_2022/assets/103901978/13230842-791e-4fb5-9353-c5e50cc6d136)
 
